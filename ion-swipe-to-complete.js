@@ -4,7 +4,7 @@ angular.module("MyApp", ['ionic']).directive('swipeToComplete', function() {
     // SLIDE 1 - the base slide - you can give it a right arrow on left edge (TO SWIPE RIGHT) or left arrow on right edge (TO SWIPE LEFT) 
     // SLIDE 2 - the black overlay when you slide left
     return {
-        templateUrl: '/ion-swipe-to-complete/ion-swipe-to-complete.html',
+        templateUrl: 'ion-swipe-to-complete.html',
         restrict: 'E',
         scope: {
             swipeLeft: '=?',
