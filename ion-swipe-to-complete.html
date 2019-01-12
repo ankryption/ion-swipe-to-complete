@@ -1,19 +1,19 @@
-<div class="keriton-swipe-button-text-container">
-    <div class="keriton-swipe-button-text">
+<div class="swipe-button-text-container">
+    <div class="swipe-button-text">
         {{ buttonText }}
     </div>
-    <div class="keriton-swipe-button-subtext">
+    <div class="swipe-button-subtext">
         {{ buttonSubtext }}
     </div>
 </div>
-<ion-slides class="keriton-swipe-button-slides-container" slider="data.slider">
+<ion-slides class="swipe-button-slides-container" slider="data.slider" show-pager="false">
     <!-- INDEX-0 - SWIPE RIGHT - show this when !swipeLeft -->
-    <ion-slide-page class="keriton-swipe-button-slide-complete" ng-show="!swipeLeft">
+    <ion-slide-page class="swipe-button-slide-complete" ng-show="!swipeLeft">
     </ion-slide-page>
     <!-- INDEX-1 == BASE -->
-    <ion-slide-page class="keriton-swipe-button-base" ng-class="{'keriton-swipe-button-left-arrow': swipeLeft, 'keriton-swipe-button-right-arrow': !swipeLeft}">
+    <ion-slide-page class="swipe-button-base" ng-class="{'swipe-button-left-arrow': swipeLeft, 'swipe-button-right-arrow': !swipeLeft}">
     </ion-slide-page>
     <!-- INDEX-2 - SWIPE LEFT - show this when swipeLeft -->
-    <ion-slide-page class="keriton-swipe-button-slide-complete" ng-show="swipeLeft">
+    <ion-slide-page class="swipe-button-slide-complete" ng-show="swipeLeft">
     </ion-slide-page>
 </ion-slides>

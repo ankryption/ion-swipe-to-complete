@@ -1,19 +1,19 @@
-.keriton-swipe-button-slide-complete {
+.swipe-button-slide-complete {
     background-color: black;
 }
-.keriton-swipe-button-right-arrow {
+.swipe-button-right-arrow {
     border-top: 24px solid transparent;
     border-bottom: 24px solid transparent;
     border-left: 24px solid black;
     z-index: 1000;
 }
-.keriton-swipe-button-left-arrow {
+.swipe-button-left-arrow {
     border-top: 24px solid transparent;
     border-bottom: 24px solid transparent;
     border-right: 24px solid black;
     z-index: 1000;
 }
-.keriton-swipe-button-slides-container {
+.swipe-button-slides-container {
     left: 0px;
     right: 0px;
     bottom: 0px;
@@ -22,7 +22,7 @@
     margin: 0px;
     position: absolute;
 }
-.keriton-swipe-button-text {
+.swipe-button-text {
     position: absolute;
     bottom: 0px;
     left: 0px;
