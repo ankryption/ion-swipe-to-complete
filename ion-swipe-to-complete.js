@@ -9,7 +9,7 @@ angular.module("MyApp", ['ionic']).directive('swipeToComplete', function() {
         scope: {
             swipeLeft: '=?',
             onSwipeEnd: '=?',
-            buttonText: '=?',
+            buttonText: '=',
             buttonSubtext: '=?',
             onSwipeEndData: '=?',
         },
